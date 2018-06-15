@@ -1,10 +1,41 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% seo %}
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  {% feed_meta %}
+  <style type="text/css">
+    @charset "UTF-8";
+    [ng\:cloak],
+    [ng-cloak],
+    [data-ng-cloak],
+    [x-ng-cloak],
+    .ng-cloak,
+    .x-ng-cloak,
+    .ng-hide:not(.ng-hide-animate) {
+      display: none !important;
+    }
+
+    ng\:form {
+      display: block;
+    }
+  </style>
+  <title>Convey - Global Disclosure System</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="initial-scale=1,user-scalable=no">
+  <meta name="viewport" content="user-scalable=no,width=device-width,height=device-height,initial-scale=1,maximum-scale=1,minimum-scale=1,minimal-ui">
+  <meta name="theme-color" content="#3C83CB">
+  <meta name="msapplication-navbutton-color" content="#3C83CB">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#3C83CB">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://aamc-black.global.ssl.fastly.net/production/static/images/favicons/apple-touch-icon-797373acfe.png">
+  <link rel="icon" type="image/png" href="https://aamc-black.global.ssl.fastly.net/production/static/images/favicons/favicon-32x32-55655c6154.png"
+    sizes="32x32">
+  <link rel="icon" type="image/png" href="https://aamc-black.global.ssl.fastly.net/production/static/images/favicons/favicon-16x16-3df83deb7f.png"
+    sizes="16x16">
+  <link rel="manifest" href="https://aamc-black.global.ssl.fastly.net/production/static/images/favicons/manifest.json">
+  <link rel="mask-icon" href="https://aamc-black.global.ssl.fastly.net/production/static/images/favicons/safari-pinned-tab-4f4c286573.svg"
+    color="#5bbad5">
+  <link rel="shortcut icon" href="https://aamc-black.global.ssl.fastly.net/production/static/images/favicons/favicon-389b4becc9.ico">
+  <meta name="msapplication-config" content="https://aamc-black.global.ssl.fastly.net/production/static/images/favicons/browserconfig.xml">
+  <link rel="stylesheet" href="{{ "/assets/fonts/font-awesome.min.css" | relative_url }}" type="text/css">
+  <link rel="stylesheet" href="{{ "/assets/css/main-index.min.css" | relative_url }}" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i|Roboto:300,300i,400,400i,700,700i&amp;subset=cyrillic-ext"
+    rel="stylesheet">
   {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
   {% endif %}
