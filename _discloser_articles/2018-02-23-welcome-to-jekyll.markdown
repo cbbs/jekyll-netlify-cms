@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Submitting a Disclosure"
-date:   2018-02-23 00:12:57 +0800
+title: Submitting a Disclosure
 categories: jekyll update
 ---
+How to Submit a Disclosure.
 
 
-How to Submit a Disclosure
+
+written by Colin
