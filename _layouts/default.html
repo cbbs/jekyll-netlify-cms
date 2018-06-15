@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="{{ page.lang | default: site.lang | default: "en" }}">
+<!--<![endif]-->
+
+  {%- include head.html -%}
+
+  <body class="home" data-spy="scroll" data-target="#top-bar" data-offset="81">
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+
+    </main>
+
+    {%- include footer.html -%}
+
+    <script type="text/javascript" src="{{ "/assets/js/main-index.min.js" | relative_url }}"></script>
+
+  </body>
+
+</html>
